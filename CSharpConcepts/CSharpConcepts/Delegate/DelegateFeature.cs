@@ -1,4 +1,8 @@
-﻿namespace CSharpConcepts.Delegate
+﻿using System.Buffers.Text;
+using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
+
+namespace CSharpConcepts.Delegate
 {
     // Delegate Declaration. 
     public delegate int HelloFunctionDelegate(int firstValue, int secondValue);
@@ -60,16 +64,16 @@
             //Second Way
             // Creating object "obj" of class "DelegateFeature" 
             DelegateFeature abstractClassObject = new DelegateFeature();
-
+    
             //Do the Dividation
             // creating object of delegate, name as "deligateObject2"  
             // for method "Dividation" & pass the parameter as the two methods by class object "obj" 
             // instantiating the delegates 
             HelloFunctionDelegate deligateObject2 = new HelloFunctionDelegate(abstractClassObject.Dividation);
-
+    
             // pass the values to the methods by delegate object 
             deligateObject2(6, 2);
-
+    
             deligateObject2.Invoke(100, 40);
         }
     }

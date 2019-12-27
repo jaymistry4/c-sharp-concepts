@@ -9,3 +9,14 @@ E:\Jay\Learn\Project\Testing\CSharpConcept\CSharpConcepts\obj\Debug\netcoreapp2.
 E:\Jay\Learn\Project\Testing\CSharpConcept\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.AssemblyInfo.cs
 E:\Jay\Learn\Project\Testing\CSharpConcept\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.dll
 E:\Jay\Learn\Project\Testing\CSharpConcept\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.pdb
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\bin\Debug\netcoreapp2.2\CSharpConcepts.deps.json
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\bin\Debug\netcoreapp2.2\CSharpConcepts.runtimeconfig.json
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\bin\Debug\netcoreapp2.2\CSharpConcepts.runtimeconfig.dev.json
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\bin\Debug\netcoreapp2.2\CSharpConcepts.dll
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\bin\Debug\netcoreapp2.2\CSharpConcepts.pdb
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.csprojAssemblyReference.cache
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.csproj.CoreCompileInputs.cache
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.AssemblyInfoInputs.cache
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.AssemblyInfo.cs
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.dll
+E:\Jay\Learn\Project\Testing\c-sharp-concepts\CSharpConcepts\CSharpConcepts\obj\Debug\netcoreapp2.2\CSharpConcepts.pdb

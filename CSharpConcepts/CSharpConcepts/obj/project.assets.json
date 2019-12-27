@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Jay\\Learn\\Project\\Testing\\CSharpConcept\\CSharpConcepts\\CSharpConcepts.csproj",
+      "projectUniqueName": "E:\\Jay\\Learn\\Project\\Testing\\c-sharp-concepts\\CSharpConcepts\\CSharpConcepts\\CSharpConcepts.csproj",
       "projectName": "CSharpConcepts",
-      "projectPath": "E:\\Jay\\Learn\\Project\\Testing\\CSharpConcept\\CSharpConcepts\\CSharpConcepts.csproj",
+      "projectPath": "E:\\Jay\\Learn\\Project\\Testing\\c-sharp-concepts\\CSharpConcepts\\CSharpConcepts\\CSharpConcepts.csproj",
       "packagesPath": "C:\\Users\\jmmistry\\.nuget\\packages\\",
-      "outputPath": "E:\\Jay\\Learn\\Project\\Testing\\CSharpConcept\\CSharpConcepts\\obj\\",
+      "outputPath": "E:\\Jay\\Learn\\Project\\Testing\\c-sharp-concepts\\CSharpConcepts\\CSharpConcepts\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

@@ -21,17 +21,17 @@ namespace CSharpConcepts.AbstractAndInterfaceClass
         }
     }
 
-    class Program
-    {
-        public static void AbstractClassWithVirtualMethodMain()
-        {
-            SomeClass sc = new SomeClass();
-            sc.AbstractClassMethod();
-
-            SomeOtherClass soc = new SomeOtherClass();
-            soc.AbstractClassMethod();
-
-            Console.ReadKey();
-        }
-    }
+    //class Program
+    //{
+    //    public static void AbstractClassWithVirtualMethodMain()
+    //    {
+    //        SomeClass sc = new SomeClass();
+    //        sc.AbstractClassMethod();
+    //
+    //        SomeOtherClass soc = new SomeOtherClass();
+    //        soc.AbstractClassMethod();
+    //
+    //        Console.ReadKey();
+    //    }
+    //}
 }

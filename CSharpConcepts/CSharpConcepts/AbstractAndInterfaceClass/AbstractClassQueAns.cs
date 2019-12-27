@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
 
 namespace CSharpConcepts.AbstractAndInterfaceClass
 {
@@ -40,7 +38,7 @@ namespace CSharpConcepts.AbstractAndInterfaceClass
             return "Jay";
         }
     }
- 
+
     public interface ICustomer
     {
         //Constructor is not possible
@@ -99,6 +97,31 @@ namespace CSharpConcepts.AbstractAndInterfaceClass
         private string GetCurrentUtcTime()
         {
             return DateTime.UtcNow.ToShortTimeString();
+        }
+
+
+    }
+    
+    //By default class in internal protection level. 
+
+    //Elements defined in a namespace cannot be explicitly declared as private, protected, protected internal, or private protected
+    //private class MyClass
+    class MyClass
+    {
+        internal int x = 10;
+
+        internal virtual int Sum()
+        {
+            return 50;
+        }
+    }
+
+    class Test : MyClass
+    {
+        internal override int Sum()
+        {
+            return this.x = 20;
+
         }
     }
 }

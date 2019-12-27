@@ -10,6 +10,41 @@ namespace CSharpConcepts.AbstractAndInterfaceClass
     /// </summary>        
     public abstract class Employee
     {
+        //if we declare property "sumValue" non static then it will not be accessible in the static constructor "Employee".
+        //public int SumValue = 10;
+
+        //To make property sumValue accessible in the "Employee" constructor we need to make it static.
+        public static int SumValue = 10;
+
+        static Employee()
+        {
+            SumValue = 20;
+            Sum();
+        }
+
+        //By default constructor is private so it will not be accessible in the class "FullTimeEmployee". To overcome this problem declare it as public/protected.
+        //Employee()
+        //{
+        //        
+        //}
+
+        protected Employee()
+        {
+                
+        }
+
+        //if we declare method "sum" non static then it will not be accessible in the static constructor "Employee".
+        //public int Sum()
+        //{
+        //    return SumValue + SumValue;
+        //}
+
+        //To make method "Sum" accessible in the "Employee" constructor it must be static.
+        public static int Sum()
+        {
+            return SumValue + SumValue;
+        }
+
         public abstract string Print();
 
     }
@@ -31,7 +66,20 @@ namespace CSharpConcepts.AbstractAndInterfaceClass
     {
         public override string Print()
         {
-            throw new NotImplementedException();
+
+            //throw new NotImplementedException();
+            return $"Summation is: {Sum()}";
+        }
+    }
+
+    class Program
+    {
+        public static void AbstractClassWithVirtualMethodMain()
+        {
+            Abc sc = new Abc();
+            sc.Print();
+
+            Console.ReadKey();
         }
     }
 }
